@@ -2,6 +2,7 @@
 # We have not automatically identified the languages in your repository.
 # Please edit the `language:` list below to add the appropriate supported languages.
 # **********************************************************************************
+![CodeQL](https://github.com/LaPrelle10/ServerOS/workflows/CodeQL/badge.svg)
 name: "CodeQL"
 
 on:
