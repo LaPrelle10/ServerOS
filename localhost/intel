@@ -1,0 +1,17 @@
+# ServerOS 
+sys int : { (api connection) localhost [local host server connected]
+port : system  connect localhost = true {
+"if fail sys reboot"}
+{
+if reboot fails sys timeout
+timeout: "60s" 
+} sys user manuel reboot = 'success' 
+= sys error (localhost) 
+intel : 
+('file override')
+= override "success"
+import-server-localhost
+= true 
+server port :
+("443") or ("8888") connect "localhost server"
+}
